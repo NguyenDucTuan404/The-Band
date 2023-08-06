@@ -1,0 +1,96 @@
+/* Reset Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; /*Hàng động cuộn của trang web khi bấm vào mục bất kì*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Common */
+
+.clear {
+  clear: both;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.column {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 11px 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  margin-top: 15px;
+  border: none;
+  text-align: center;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.btn:hover {
+  background-color: #ccc;
+  color: #000;
+  cursor: pointer;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.column-full {
+  width: 100%;
+}
+
+
+.column-tow {
+  width: 50%;
+}
+
+.column-three {
+  width: 33.33333%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+.mt-16 {
+  margin-top: 16px !important;
+}
+
+.mt-32 {
+  margin-top: 32px !important;
+}
+
+

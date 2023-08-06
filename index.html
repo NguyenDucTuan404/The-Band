@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/Css/base.css">
+  <link rel="stylesheet" href="./assets/Css/style.css">
+  <link rel="stylesheet" href="./assets/Css/responsive.css">
+  <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+  <title>The Band</title>
+</head>
+<body>
+  <div id="app">
+    <!-- Header Navbar -->
+    <div id="header">
+      <ul id="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#band">Band</a></li>
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="#">
+            More
+            <i class="navbar__arrow-down ti-angle-down"></i>
+          </a>
+          <ul class="subnav">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li>
+          </ul>
+        </li>
+      </ul>
+
+       <!-- Menu Mobile -->
+       <div id="mobile-menu" class="mobile-menu-btn">
+        <i class="menu-icon ti-menu"></i>
+      </div>
+      <!-- Header search -->
+      <div class="search-btn">
+        <i class="search-icon ti-search"></i>
+      </div>
+    </div>
+    <!-- Slider -->
+    <div id="slider">
+      <div class="slider__text-content">
+        <h2 class="slider__text-heading">CHICAGO</h2>
+        <div class="slider__text-describe">Lorem ipsum dolor sit amet.</div>
+      </div>
+    </div>
+    <!-- Content -->
+    <div id="content">
+      <!-- About Section -->
+      <div id="band" class="content__section">
+        <h2 class="content__section-heading">The Band</h2>
+        <p class="content__section-sub-heading">We love music</p>
+        <p class="about-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Hic, dolores recusandae? Quos amet id delectus rem nihil saepe 
+          ad repudiandae, ea dolorem ipsam neque tempora molestias fuga 
+          corrupti veritatis in iste omnis hic, exercitationem velit minima 
+          dolor blanditiis similique ullam? Repudiandae deleniti quam pariatur
+          placeat facere aperiam obcaecati, odit temporibus? Quos amet id delectus  
+          ad repudiandae, ea dolorem ipsam neque tempora molestias fuga 
+          corrupti veritatis in iste omnis hic, exercitationem velit minima 
+          dolor blanditiis similique ullam? Repudiandae deleniti quam pariatur
+          placeat facere aperiam obcaecati, odit temporibus?
+        </p>
+        <!-- Band Team -->
+        <div class="row content__members-list">
+          <div class="column column-three s-column-full mt-32 text-center">
+            <p class="members-item-name">Tuan</p>
+            <img src="./assets/img/band-team/member-1.jpg" alt="Name" class="members-item-img">
+          </div>
+          <div class="column column-three s-column-full mt-32 text-center">
+            <p class="members-item-name">di</p>
+            <img src="./assets/img/band-team/member-1.jpg" alt="Name" class="members-item-img">
+          </div>
+          <div class="column column-three s-column-full mt-32 text-center">
+            <p class="members-item-name">codedao</p>
+            <img src="./assets/img/band-team/member-1.jpg" alt="Name" class="members-item-img">
+          </div>
+        </div>
+      </div>
+      <!-- Tour Section -->
+      <div id="tour" class="tour__section">
+        <div class="content__section">
+          <h2 class="content__section-heading text-white">Tour Dates</h2>
+          <p class="content__section-sub-heading text-white">Remember to book your tickets</p>
+          <!-- Tickets -->
+          <ul class="ticket-list">
+            <li>September <span class="sold-out">Sold Out</span></li>
+            <li>October <span class="sold-out">Sold Out</span></li>
+            <li>November <span class="quantity">3</span></li>
+          </ul>
+          <!-- Places -->
+          <div class="row places-list">
+            <div class="column column-three s-column-full mt-16">
+              <img src="./assets/img/places/place-1.jpg" alt="New York" class="place-img">
+              <div class="place-body">
+                <h3 class="place-heading">New york</h3>
+                <p class="place-time">Fri 26 Nov 2023</p>
+                <p class="place-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Earum, impedit voluptas aut quos illum doloribus.
+                </p>
+                <search class="btn js-buy-ticket s-full-width ">Buy Tickets</search>
+              </div>
+            </div>
+
+            <div class="column column-three s-column-full mt-16">
+              <img src="./assets/img/places/place-2.jpg" alt="New York" class="place-img">
+              <div class="place-body">
+                <h3 class="place-heading">Paris</h3>
+                <p class="place-time">Fri 27 Nov 2023</p>
+                <p class="place-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Earum, impedit voluptas aut quos illum doloribus.
+                </p>
+                <button class="btn js-buy-ticket s-full-width ">Buy Tickets</button>
+              </div>
+            </div>
+
+            <div class="column column-three s-column-full mt-16">
+              <img src="./assets/img/places/place-3.jpg" alt="New York" class="place-img">
+              <div class="place-body">
+                <h3 class="place-heading">San Francisco</h3>
+                <p class="place-time">Fri 28 Nov 2023</p>
+                <p class="place-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Earum, impedit voluptas aut quos illum doloribus.
+                </p>
+                <button class="btn js-buy-ticket s-full-width ">Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Section -->
+      <div id="contact" class="content__section">
+        <h2 class="content__section-heading">Contact</h2>
+        <p class="content__section-sub-heading">Fan?Drop a not!</p>
+
+        <div class="row contact-content">
+          <div class="column column-tow s-column-full contact-infor">
+            <p><i class="ti-location-pin"></i>Chicago, US</p>
+            <p><i class="ti-mobile"></i>Phone: <a href="tel: 0379174390">0379174390</a></p>
+            <p><i class="ti-email"></i>Email: <a href="mailto: tuan292011@gmail.com">tuan292011@gmail.com</a></p>
+          </div>
+          <div class="column column-tow s-column-full contact-form">
+            <form action="">
+              <div class="row">
+                <div class="column column-tow s-column-full">
+                  <input type="text" name="" placeholder="Name" id="" required class="form-control">
+                </div>
+                <div class="column column-tow s-column-full s-mt-8">
+                  <input type="email" name="" placeholder="Email" id="" required class="form-control">
+                </div>
+              </div>
+              <div class="row mt-8">
+                <div class="column column-full">
+                  <input type="text" name="" placeholder="Message" id="" required class="form-control">
+                </div>
+              </div>
+                <input class="s-full-width btn mt-16 pull-right contact-submit-btn" type="submit" value="SEND">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="map__section">
+        <img src="./assets/img/map.jpg" alt="Map">
+      </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+      <div class="footer__socials">
+        <a href="#"><i class="ti-facebook"></i></a>
+        <a href="#"><i class="ti-instagram"></i></a>
+        <a href="#"><i class="ti-youtube"></i></a>
+        <a href="#"><i class="ti-pinterest"></i></a>
+        <a href="#"><i class="ti-twitter"></i></a>
+        <a href="#"><i class="ti-linkedin"></i></a>
+        <a href="#"><i class="ti-github"></i></a>
+      </div>
+      <p class="copyright">Bản quyền của <a href="#">Tuandicodedao</a></p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal js-modal">
+    <div class="modal__container js-modal-container">
+      <!-- Header Modal-->
+      <div class="modal__container-close js-modal-close">
+        <i class="ti-close"></i>
+      </div>
+      <header class="modal__container-header">
+        <i class="modal__container-header-icon ti-bag"></i>
+        Tickets
+      </header>
+      <!-- Body Modal-->
+      <div class="modal__container-body">
+        <label for="ticket-quantity" class="modal__body-label">
+          <i class="ti-shopping-cart"></i>
+          Tickets, $15 per person
+        </label>
+        <input id="ticket-quantity" type="text" class="modal__body-input" placeholder="How many?">
+
+        <label for="ticket-email" class="modal__body-label">
+          <i class="ti-user"></i>
+          Send to
+        </label>
+        <input id="ticket-email" type="email" class="modal__body-input" placeholder="Enter email...">
+        <button id="buy-tickets">
+          Pay<i class="ti-check"></i>
+        </button>
+      </div>
+      <!-- Footer Modal -->
+      <footer class="modal__container-footer">
+        <p class="modal__footer-help">Need <a href="#">help?</a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Javascript -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
